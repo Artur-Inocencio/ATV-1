@@ -1,15 +1,15 @@
 public class Main {
     public static void main(String[] args) {
 
-        Cliente cliente1 = new Cliente(123456, "Laís","12345678900");
-        Cliente cliente2 = new Cliente(123457, "Lígia","12345678911");
+        Cliente cliente1 = new Cliente(789456, "Artur","12345678910");
+        Cliente cliente2 = new Cliente(123457, "Delzira","11109876543");
 
         System.out.println("nome: " + cliente1.getNome());
         System.out.println("nome: " + cliente2.getNome());
-        cliente1.setNome("Laís Queiroz");
+        cliente1.setNome("Artur Santos");
         System.out.println("nome: " + cliente1.getNome());
 
-        Conta conta1 = new Conta(123456, 1000.0);
+        Conta conta1 = new Conta(789456, 1000.0);
         Conta conta2 = new Conta(123457, 500.0);
 
         System.out.println("saldo: " + conta1.saldo);
@@ -25,19 +25,19 @@ public class Main {
         System.out.println("valor: " + transacao2.valor);
         System.out.println("valor: " + transacao1.valor);
 
-        Agencia agencia1 = new Agencia(1, "Rua A, 123");
-        Agencia agencia2 = new Agencia(2, "Rua B, 456");
+        Agencia agencia1 = new Agencia(1, "Rua Trator, 178");
+        Agencia agencia2 = new Agencia(2, "Rua Carro, 321");
 
         System.out.println("endereco: " + agencia1.endereco);
-        agencia1.setEndereco("Rua C, 789");
+        agencia1.setEndereco("Rua aretuza, 234");
         System.out.println("endereco: " + agencia2.endereco);
         System.out.println("endereco: " + agencia1.endereco);
 
-        Cartao cartao1 = new Cartao(123456, 10000);
-        Cartao cartao2 = new Cartao(654321, 7000);
+        Cartao cartao1 = new Cartao(23156, 10000);
+        Cartao cartao2 = new Cartao(45621, 7000);
 
         System.out.println("limite: " + cartao1.limite);
-        cartao1.setLimite(14000);
+        cartao1.setLimite(2000);
         System.out.println("limite: " + cartao2.limite);
         System.out.println("limite: " + cartao1.limite);
 
